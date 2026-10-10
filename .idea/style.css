@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+.firstDiv{
+    background-color: navy;
+    text-align: center;
+    p, h1, a {
+        color: white;
+    }
+}
+header, footer{
+    text-align: center;
+    padding: 30px;
+}
+
+.secondDiv{
+    text-align: center;
+    padding: 20px;
+}
+
+.thirdDiv{
+    text-align: center;
+    padding: 50px;
+}
+
+
+/* below is AI-generated so the "contact me" section is stuck to the bottom*/
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+/* for the project "boxes" */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+.projects h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.projects > div {
+    flex: 1 1 220px;
+    max-width: 280px;
+    padding: 24px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.projects h3 {
+    margin: 0 0 10px;
+}
