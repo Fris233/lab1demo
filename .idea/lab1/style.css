@@ -23,7 +23,7 @@ header, footer{
     padding: 50px;
 }
 
-So the "contact me" section is stuck to the bottom*/
+/* So the "contact me" section is stuck to the bottom*/
 body {
     margin: 0;
     min-height: 100vh;
