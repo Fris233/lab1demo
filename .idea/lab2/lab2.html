@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS Calculator</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="calculator">
+    <div id="display" class="display">0</div>
+    <div class="buttons">
+        <button class="btn btn-gray" data-action="clear">AC</button>
+        <button class="btn btn-gray" data-action="sign">±</button>
+        <button class="btn btn-gray" data-action="percent">%</button>
+        <button class="btn btn-orange" data-action="op" data-val="/">÷</button>
+
+        <button class="btn btn-dark" data-val="7">7</button>
+        <button class="btn btn-dark" data-val="8">8</button>
+        <button class="btn btn-dark" data-val="9">9</button>
+        <button class="btn btn-orange" data-action="op" data-val="*">×</button>
+
+        <button class="btn btn-dark" data-val="4">4</button>
+        <button class="btn btn-dark" data-val="5">5</button>
+        <button class="btn btn-dark" data-val="6">6</button>
+        <button class="btn btn-orange" data-action="op" data-val="-">−</button>
+
+        <button class="btn btn-dark" data-val="1">1</button>
+        <button class="btn btn-dark" data-val="2">2</button>
+        <button class="btn btn-dark" data-val="3">3</button>
+        <button class="btn btn-orange" data-action="op" data-val="+">+</button>
+
+        <button class="btn btn-dark btn-zero" data-val="0">0</button>
+        <button class="btn btn-dark" data-val=".">.</button>
+        <button class="btn btn-orange" data-action="calc">=</button>
+    </div>
+</div>
+
+<script src="javasc.js"></script>
+</body>
+</html>
