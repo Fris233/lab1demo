@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.todo-card {
+    background: #202020;
+    border-radius: 14px;
+    padding: 26px;
+}
+
+.app-title {
+    font-size: 52px;
+    color: skyblue;
+    margin-bottom: 18px;
+}
+
+.input-row {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#add-btn {
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.subheader-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hint-text {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.filter-btn {
+    background: none;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #64748b;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.filter-btn.active {
+    background-color: #e0e7ff;
+    color: #3b82f6;
+    font-weight: 600;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 4px;
+    border-bottom: 1px solid #f1f5f9;
+    gap: 12px;
+}
+
+.check-btn {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    cursor: pointer;
+    color: #6366f1;
+}
+
+.todo-text {
+    color: #64748b;
+    cursor: pointer;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #94a3b8;
+}
+
+.edit-input {
+    flex: 1;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    outline: none;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #64748b;
+}
+
+.delete-btn:hover {
+    color: #ef4444;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    color: #64748b;
+}
+
+
+.secondary-btn {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.secondary-btn:hover {
+    background-color: grey;
+}
