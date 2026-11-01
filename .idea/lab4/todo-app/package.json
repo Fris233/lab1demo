@@ -2,8 +2,8 @@
   "name": "todo-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w"
+    "build": "node_modules/.bin/tsc",
+    "watch": "node_modules/.bin/tsc -w"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
